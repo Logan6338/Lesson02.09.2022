@@ -21,3 +21,17 @@ string FillStringInNumDiapazone (string c, int Num)
 string result = FillStringInNumDiapazone(s, N);
 
 Console.WriteLine(result);
+
+/*
+System.Console.WriteLine("Введие число");
+int number = Convert.ToInt32(Console.ReadLine());
+Console.Clear();
+
+void PrintNumbers(int num,int index=1){
+    System.Console.Write($" {index}");
+    if(index<num){
+        PrintNumbers(num,index +1);
+    }
+}
+PrintNumbers(number);
+*/
