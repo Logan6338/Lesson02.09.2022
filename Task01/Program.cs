@@ -23,6 +23,8 @@ string result = FillStringInNumDiapazone(s, N);
 Console.WriteLine(result);
 
 /*
+Метод решения через INT
+
 System.Console.WriteLine("Введие число");
 int number = Convert.ToInt32(Console.ReadLine());
 Console.Clear();
